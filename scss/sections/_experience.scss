@@ -1,0 +1,24 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.experience{
+    @include media-breakpoint-down(lg){
+        margin-top:-30px;  
+
+    }   
+    margin-top:-100px;
+    img{
+        height: 300px;
+
+    }
+}
+
+.work-details{
+    @include media-breakpoint-down(lg){
+
+            margin-top:0px;
+
+    }   
+    vertical-align: middle;
+    margin-top:150px;
+}
